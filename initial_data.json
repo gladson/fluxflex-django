@@ -1,20 +1,20 @@
-﻿[
-    {
-        "pk": 1,
-        "model": "auth.user",
-        "fields": {
-            "username": "teste",
-            "first_name": "Usuario",
-            "last_name": "Teste",
-            "is_active": true,
-            "is_superuser": false,
-            "is_staff": false,
-            "last_login": "2011-10-18 14:18:15",
-            "groups": [],
-            "user_permissions": [],
-            "password": "sha1$a46b4$f3353dcc2fd4aa112e2d80393ebc148d6b68ece9",
-            "email": "teste@teste.com",
-            "date_joined": "2011-10-18 14:18:15"
-        }
+[
+  {
+    "pk": 1,
+    "model": "auth.user",
+    "fields": {
+      "username": "gladson@agronomo.eng.br",
+      "first_name": "Gladson",
+      "last_name": "",
+      "is_active": true,
+      "is_superuser": true,
+      "is_staff": true,
+      "last_login": "2011-11-11 15:03:45",
+      "groups": [],
+      "user_permissions": [],
+      "password": "sha1$04332$a04393a1feba163bfb91a0d8dc5e0f05726bb1f0",
+      "email": "",
+      "date_joined": "2011-11-11 15:03:45"
     }
+  }
 ]
