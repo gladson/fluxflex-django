@@ -8,7 +8,7 @@ public_html/dispatch.fcgi FLX_PROJECT_NAME PROJECT_NAME
 
 [setup]
 /usr/bin/env python manage.py syncdb
-/usr/bin/env python manage.py --username=admin --email=a@dmin.com
+/usr/bin/env python manage.py createsuperuser --username=admin --email=a@dmin.com
 #/usr/bin/env python manage.py loaddata initial_data.json
 #/usr/bin/env python manage.py dumpdata --indent=2 auth > initial_data.json
 
