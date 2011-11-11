@@ -4,9 +4,11 @@ settings.py FLX_DB_USER      DB_USER
 settings.py FLX_DB_PASS      DB_PASSWORD
 settings.py FLX_DB_HOST      DB_HOST
 public_html/dispatch.fcgi FLX_PROJECT_NAME PROJECT_NAME
+initial_data.json FLX_DB_USER      DB_USER
 
 [setup]
-#/usr/bin/env python manage.py syncdb
+/usr/bin/env python manage.py syncdb
+/usr/bin/env python manage.py loaddata initial_data.json
 
 [deploy]
 pip install -r req.txt -I --install-option="--user"
