@@ -16,13 +16,5 @@
             "email": "teste@teste.com",
             "date_joined": "2010-10-20 04:38:36"
         }
-    },
-	{
-		"pk": 1,
-		"model": "sites.site",
-		"fields": {
-			"name": "Gladson / fluxflex-django",
-			"domain": "https://github.com/gladson/fluxflex-django"
-		}
-	}
+    }
 ]
