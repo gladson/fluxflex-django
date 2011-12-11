@@ -1,9 +1,0 @@
-/**
- Export to JSON plugin for PHPMyAdmin
- @version 0.1
- */
-
-/* Database 'gladson' */ 
-/* gladson.auth_user */
-
-[{"id": 1,"username": "gladson@agronomo.eng.br","first_name": "Gladson","last_name": "","email": "","password": "sha1$04332$a04393a1feba163bfb91a0d8dc5e0f05726bb1f0","is_staff": 1,"is_active": 1,"is_superuser": 1,"last_login": "2011-11-11 15:03:45","date_joined": "2010-10-29 13:44:45"}]
